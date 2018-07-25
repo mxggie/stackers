@@ -19,9 +19,9 @@ class stack():
                 #if event.type == KEYDOWN:
                 n = 0
                 while n <= 7:                    
-                    sense.set_pixel(n, 6, (0,0,255))
+                    sense.set_pixel(n, 7, (0,0,255))
                     time.sleep(0.5)
-                    sense.set_pixel(n, 6, (0,0,0))
+                    sense.set_pixel(n, 7, (0,0,0))
                     n += 1
 
 if __name__ == "__main__":
